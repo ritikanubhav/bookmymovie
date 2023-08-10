@@ -50,8 +50,10 @@ export default function MovieSlider()
     return (
         <section className='slider'>
             <BsCaretLeftFill className='left-arrow ' onClick={prevSlide} />
-            {slidesData[current].show.image && 
-            <img src={slidesData[current].show.image.original} alt='movie image' className='image' />}
+            {slidesData[current].show.image ? 
+            <img src={slidesData[current].show.image.original} alt='movie image' className='image' />:
+            <img src={slidesData[9].show.image.original} alt='movie image' className='image' />
+            }
             {!isSummaryData?
                 <MovieDetail
                 slidesData={slidesData}

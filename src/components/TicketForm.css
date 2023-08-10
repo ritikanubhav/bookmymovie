@@ -1,7 +1,6 @@
 .form{
     width: 25%;
     height: 75%;
-    border:solid 2px #0C1D31;
     padding:10px;
     display:flex;
     flex-direction: column;
@@ -11,23 +10,23 @@
 }
 .input-field{
     width:100%;
-    height:28px;
+    height:35px;
     outline:none;
+    border:none;
     border-radius: 5px;
     padding:10px;
     user-select: none;
-    border :solid 1px #0C1D31;
-    
 }
 input-field::placeholder{
     user-select: none;
 }
 .form-btn{
     width:100%;
+    height:35px;
 }
 @media screen and (max-width: 760px) {
     .form{
         width: 15rem;
-      height:24rem;
+        height:24rem;
     }
   }

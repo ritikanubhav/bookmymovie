@@ -16,19 +16,17 @@
   }
 
    .moviedetails{
-    color:#0C1D31;
-    width: 25%;
-    height: 80%; 
-    top:0;
-    left:75%;
+    color:white;
+    background-color: rgba(12, 29, 49,0.4);
+    width: 20rem;
+    height:28rem; 
     align-items: center;
     padding: 20px;
     align-items: center;
     border-radius: 10px;
-    border:solid 2px #0C1D31;
     user-select: none;
-    /* backdrop-filter: blur(15px); */
   }
+
   .box{
     width:80px;
     height:35px;
@@ -89,23 +87,21 @@
       gap:10px;
     }
     .moviedetails{
-      width: 15rem;
+      width: 17rem;
       height:24rem;
     }
     .image {
-      width: 15rem;
+      width: 17rem;
+      height:24rem;
       border-radius: 12px;
     }
-    .sign-in{
-      font-size: 10px;
-    }
     .right-arrow {
-      top: 55%;
+      top:55%;
       right: 5px;
       font-size: 1.7rem;
     }
     .left-arrow {
-      top: 55%;
+      top:55%;
       left: 5px;
       font-size: 1.7rem;
     }

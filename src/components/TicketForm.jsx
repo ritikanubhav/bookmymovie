@@ -37,10 +37,8 @@ export default function TicketForm(props)
             value={formData.theatre}
             className="input-field"
         />
-        <div className='btn-group'></div>
-          <button className="form-btn" type='submit'>Book Ticket</button>
-          <button className="form-btn" onClick={()=>{alert("Cancelled ticket");setIsBooked(false)}}>Cancel</button>
-        <div/>
+        <button className="form-btn" type='submit'>Book Ticket</button>
+        <button className="form-btn" onClick={()=>{alert("Cancelled ticket");setIsBooked(false)}}>Cancel</button>
       </form>
     )
 }
